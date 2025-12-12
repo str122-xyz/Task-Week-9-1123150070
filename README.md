@@ -38,7 +38,7 @@ Sesuai instruksi tugas, aplikasi ini memiliki fitur:
 
 1.  **Clone Repository:**
     ```bash
-    git clone [https://github.com/USERNAME_GITHUB_LU/simple_notes_sql.git](https://github.com/USERNAME_GITHUB_LU/simple_notes_sql.git)
+    git clone https://github.com/str122-xyz/Task-Week-9-1123150070.git
     ```
 
 2.  **Install Dependencies:**
