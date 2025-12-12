@@ -54,4 +54,5 @@ Sesuai instruksi tugas, aplikasi ini memiliki fitur:
     ```
 
 ---
-**Created by:** [Satria Herlambang]
+**NIM** 1123150070
+**Created by:** Satria Herlambang
