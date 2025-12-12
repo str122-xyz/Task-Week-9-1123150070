@@ -55,4 +55,4 @@ Sesuai instruksi tugas, aplikasi ini memiliki fitur:
 
 ---
 **NIM** 1123150070 <br>
-**Created by:** Satria Herlambang
+**Created by** Satria Herlambang
