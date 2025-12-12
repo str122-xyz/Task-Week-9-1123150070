@@ -1,16 +1,57 @@
-# simple_notes
+# Simple Notes SQL 📝
 
-A new Flutter project.
+Aplikasi catatan sederhana (Simple Note App) yang dibangun menggunakan **Flutter** dan **SQLite** (Local Database). 
 
-## Getting Started
+Project ini dibuat untuk menyelesaikan tugas **Week 9 - Mobile Programming**. Aplikasi ini memungkinkan pengguna untuk menyimpan catatan secara permanen di dalam perangkat (local storage), sehingga data tidak hilang meskipun aplikasi ditutup.
 
-This project is a starting point for a Flutter application.
+## 📱 Tampilan Aplikasi
+<img src="ss1.jpg" width="300" alt="Tampilan Aplikasi">
+<img src="ss2.jpg" width="300" alt="Tampilan Aplikasi2">
 
-A few resources to get you started if this is your first Flutter project:
+## 🔥 Fitur Utama (CRUD)
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Sesuai instruksi tugas, aplikasi ini memiliki fitur:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+* ✅ **Create:** Menambahkan catatan baru (Judul & Isi) ke database.
+* ✅ **Read:** Menampilkan daftar semua catatan yang tersimpan di SQLite.
+* ✅ **Delete:** Menghapus catatan dari list dan database secara permanen.
+* 💾 **Local Storage:** Menggunakan `sqflite` untuk penyimpanan data offline.
+
+## 🛠️ Teknologi yang Digunakan
+
+* **Language:** Dart
+* **Framework:** Flutter
+* **Database:** SQLite
+* **Dependencies:**
+    * [`sqflite`](https://pub.dev/packages/sqflite): ^2.3.0 (Untuk manajemen database SQLite)
+    * [`path`](https://pub.dev/packages/path): ^1.9.0 (Untuk mengatur lokasi penyimpanan database)
+
+## 📂 Struktur Project
+
+* `lib/models/note_model.dart`: Model data untuk konversi Map <-> Object.
+* `lib/database/database_helper.dart`: Mengatur koneksi database dan query SQL (Singleton Pattern).
+* `lib/main.dart`: User Interface (UI) untuk menampilkan list dan form input.
+
+## 🚀 Cara Menjalankan Aplikasi
+
+**Penting:** Aplikasi ini menggunakan database lokal (`sqflite`), sehingga **TIDAK MENDUKUNG** dijalankan di Web (Chrome/Edge). Harap jalankan di **Android Emulator** atau **Device Fisik**.
+
+1.  **Clone Repository:**
+    ```bash
+    git clone [https://github.com/USERNAME_GITHUB_LU/simple_notes_sql.git](https://github.com/USERNAME_GITHUB_LU/simple_notes_sql.git)
+    ```
+
+2.  **Install Dependencies:**
+    Masuk ke folder project dan jalankan:
+    ```bash
+    flutter pub get
+    ```
+
+3.  **Run Aplikasi:**
+    Pastikan Emulator sudah nyala atau HP sudah tercolok.
+    ```bash
+    flutter run
+    ```
+
+---
+**Created by:** [Satria Herlambang]
